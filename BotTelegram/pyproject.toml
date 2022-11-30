@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "test code"
+version = "0.2.0"
+description = "Test"
+authors = ["Ilya Sture <sturik@bk.ru>"]
+readme = "README.md"
+packages = [{include ="BotTelrgram"}]
+repository = "https://github.com/KepiWole/Maddi-Bot-Telegram"
+[tool.poetry.dependencies]
+python = "^3.8"
+prompt = "^0.4.1"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^5.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
